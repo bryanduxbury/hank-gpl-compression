@@ -11,6 +11,7 @@ How to do it
 1. clone hank-gpl-compression
 1. copy gpl-compression-<version>.jar and hank-gpl-compression-<version>.jar to a location that Hank can see it. On a part server, put it in Hank's libdir. In a domain-writing context, it's up to you to figure out where it belongs.
 1. Configure your cueball or curly domain by adding:
+
     compression_codec: com.rapleaf.hank-gpl-compression.QuickLZ15OptimizedCodec
 
 That's it.
